@@ -1,0 +1,25 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "Personal Expense Tracker and Budget Management System - College Field Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test_app.js"
+  },
+  "keywords": [
+    "expense-tracker",
+    "budget-management",
+    "college-project",
+    "sqlite",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  }
+}
